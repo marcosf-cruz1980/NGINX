@@ -27,4 +27,23 @@ As principais metas incluem a otimização de desempenho, implementação de HTT
 
 
 
+## Instalando o NGINX
+
+Instalação do NGINX
+Primeiramente, você precisa instalar o NGINX. Em sistemas baseados em Debian/Ubuntu, você pode usar o seguinte comando:
+
+![Insta NGINX](https://github.com/marcosf-cruz1980/NGINX/assets/146502505/b4a4aa5a-dbb4-4eef-803c-8a7b026e3a27)
+
+<h3>Arquivo de Configuração Principal (nginx.conf)</h3>
+
+O arquivo de configuração principal (/etc/nginx/nginx.conf) controla a operação global do NGINX. Um exemplo de configuração básica pode ser:
+
+Pode ser acessado pelo link do arquivo: https://github.com/marcosf-cruz1980/NGINX/blob/main/nginx.conf
+
+
+
+
+
+
+
 
