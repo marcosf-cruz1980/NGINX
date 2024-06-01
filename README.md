@@ -1,4 +1,4 @@
-<h1>Configuração e Otimização do Servidor NGINX</h1>      
+# Configuração e Otimização do Servidor NGINX   
 
         
 O objetivo deste projeto é configurar e otimizar um servidor NGINX para funcionar como servidor web, proxy reverso e gateway de API.
@@ -34,11 +34,24 @@ Primeiramente, você precisa instalar o NGINX. Em sistemas baseados em Debian/Ub
 
 ![Insta NGINX](https://github.com/marcosf-cruz1980/NGINX/assets/146502505/b4a4aa5a-dbb4-4eef-803c-8a7b026e3a27)
 
-<h3>Arquivo de Configuração Principal (nginx.conf)</h3>
+### Arquivo de Configuração Principal (nginx.conf)
 
 O arquivo de configuração principal (/etc/nginx/nginx.conf) controla a operação global do NGINX. Um exemplo de configuração básica pode ser:
 
 Pode ser acessado pelo link do arquivo: https://github.com/marcosf-cruz1980/NGINX/blob/main/nginx.conf
+
+
+### Configuração de um Site
+Para configurar um site, você cria um arquivo de configuração no diretório /etc/nginx/sites-available/. Aqui está um exemplo de configuração para um site chamado microservicos como o link abaixo:
+
+https://github.com/marcosf-cruz1980/NGINX/blob/main/microservicos
+
+
+
+### Habilitar o Site
+Para habilitar o site, crie um link simbólico do arquivo de configuração no diretório sites-available para o diretório sites-enabled:
+
+>sudo ln -s /etc/nginx/sites-available/microservicos /etc/nginx/sites-enabled/
 
 
 
