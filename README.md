@@ -44,7 +44,7 @@ Pode ser acessado pelo link do arquivo: https://github.com/marcosf-cruz1980/NGIN
 ### Configuração de um Site
 Para configurar um site, você cria um arquivo de configuração no diretório /etc/nginx/sites-available/. Aqui está um exemplo de configuração para um site chamado microservicos como o link abaixo:
 
-https://github.com/marcosf-cruz1980/NGINX/blob/main/microservicos
+>https://github.com/marcosf-cruz1980/NGINX/blob/main/microservicos
 
 
 
@@ -69,7 +69,7 @@ Se não houver erros, recarrege o NGINX para aplicar as mudanças:
 
 Neste exemplo utilizamos os termos /servico1 e /servico2 para direcionar para a pagina requerida em localhost:8001 e localhost:8002. O arquivo pode ser encontrado no link abaixo.
 
-https://github.com/marcosf-cruz1980/NGINX/blob/main/proxyreverso
+>https://github.com/marcosf-cruz1980/NGINX/blob/main/proxyreverso
 
 
 ###  Balanceamento e otimização de servidores:
@@ -77,7 +77,7 @@ https://github.com/marcosf-cruz1980/NGINX/blob/main/proxyreverso
 O arquivo de microservicos mostra como seria o comportamento de uma distribição de acessos no caso de utilizarmos apenas 2 servidores sem backup conforme link abaixo.
 Utilizando o endereço localhost:8003 onde o próprio servidor realiza a tarefa de encaminhar para os servicos1 e servicos2.
 
-https://github.com/marcosf-cruz1980/NGINX/blob/main/microservicos
+>https://github.com/marcosf-cruz1980/NGINX/blob/main/microservicos
 
 ### Certificado SSL
 
