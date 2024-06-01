@@ -1,0 +1,21 @@
+server {
+        listen 8001;
+        server_name localhost;
+        access_log /home/marcos/Documentos/nginx/logs/servicos1.log main;
+
+        location / {
+            root /home/marcos/Documentos/nginx/servico1;
+            index index.html;
+        }
+}
+
+server {
+        listen 8002;
+        server_name localhost;
+        access_log /home/marcos/Documentos/nginx/logs/servicos2.log main;
+
+        location / {
+            root /home/marcos/Documentos/nginx/servico2;
+            index index.html;
+        }
+}
