@@ -30,7 +30,7 @@ As principais metas incluem a otimização de desempenho, implementação de HTT
 ## Instalando o NGINX
 
 
-Primeiramente, você precisa instalar o NGINX. Em sistemas baseados em Debian/Ubuntu, você pode usar o seguinte comando:
+Primeiramente, você precisa instalar o NGINX em sistemas baseados em Debian/Ubuntu, você pode usar o seguinte comando:
 
 
 
