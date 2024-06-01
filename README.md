@@ -65,6 +65,37 @@ Se não houver erros, recarrege o NGINX para aplicar as mudanças:
 > sudo nginx -s reload
 
 
+### Proxy reverso
+
+Neste exemplo utilizamos os termos /servico1 e /servico2 para direcionar para a pagina requerida em localhost:8001 e localhost:8002. O arquivo pode ser encontrado no link abaixo.
+
+https://github.com/marcosf-cruz1980/NGINX/blob/main/proxyreverso
+
+
+###  Balanceamento e otimização de servidores:
+
+O arquivo de microservicos mostra como seria o comportamento de uma distribição de acessos no caso de utilizarmos apenas 2 servidores sem backup conforme link abaixo.
+Utilizando o endereço localhost:8003 onde o próprio servidor realiza a tarefa de encaminhar para os servicos1 e servicos2.
+
+https://github.com/marcosf-cruz1980/NGINX/blob/main/microservicos
+
+### Certificado SSL
+
+Para esta atividade foi gerado um certificado local, gerando os arquivos .crt e .key para que seja possivel acessar a pagina HTTP com o certificado de segurança HTTPS.
+
+arquivo .crt
+>https://github.com/marcosf-cruz1980/NGINX/blob/main/certificate/localhost.crt
+
+arquivo.key
+>https://github.com/marcosf-cruz1980/NGINX/blob/main/certificate/localhost.key
+
+configuração de acesso SSL
+
+>https://github.com/marcosf-cruz1980/NGINX/blob/main/SSL
+
+
+
+
 
 
 
