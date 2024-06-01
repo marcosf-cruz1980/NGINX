@@ -54,6 +54,23 @@ Para habilitar o site, crie um link simbólico do arquivo de configuração no d
 >sudo ln -s /etc/nginx/sites-available/microservicos /etc/nginx/sites-enabled/
 
 
+### Testar a Configuração e Recarregar NGINX
+
+Antes de reiniciar o NGINX, é bom testar a configuração para verificar se há erros:
+
+> sudo nginx -t
+
+Se não houver erros, recarrege o NGINX para aplicar as mudanças:
+
+> sudo nginx -s reload
+
+
+
+
+
+
+
+
 
 
 
