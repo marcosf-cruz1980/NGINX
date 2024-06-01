@@ -1,0 +1,10 @@
+server{
+        listen 443 ssl;
+        root /home/marcos/Documentos/nginx/servico1;
+        index index.html;
+        gzip on;
+        gzip_types text/css;
+        add_header Keep-Alive "timeout=5, max=1000";
+        ssl_certificate /tmp/localhost.crt;
+        ssl_certificate_key /tmp/localhost.key;
+}
