@@ -29,8 +29,10 @@ As principais metas incluem a otimização de desempenho, implementação de HTT
 
 ## Instalando o NGINX
 
-Instalação do NGINX
+
 Primeiramente, você precisa instalar o NGINX. Em sistemas baseados em Debian/Ubuntu, você pode usar o seguinte comando:
+
+
 
 ![Insta NGINX](https://github.com/marcosf-cruz1980/NGINX/assets/146502505/b4a4aa5a-dbb4-4eef-803c-8a7b026e3a27)
 
@@ -42,6 +44,7 @@ Pode ser acessado pelo link do arquivo: https://github.com/marcosf-cruz1980/NGIN
 
 
 ### Configuração de um Site
+
 Para configurar um site, você cria um arquivo de configuração no diretório /etc/nginx/sites-available/. Aqui está um exemplo de configuração para um site chamado microservicos como o link abaixo:
 
 >https://github.com/marcosf-cruz1980/NGINX/blob/main/microservicos
@@ -60,7 +63,7 @@ Antes de reiniciar o NGINX, é bom testar a configuração para verificar se há
 
 > sudo nginx -t
 
-Se não houver erros, recarrege o NGINX para aplicar as mudanças:
+Se não houver erros, recarregue o NGINX para aplicar as mudanças:
 
 > sudo nginx -s reload
 
@@ -74,7 +77,7 @@ Neste exemplo utilizamos os termos /servico1 e /servico2 para direcionar para a 
 
 ###  Balanceamento e otimização de servidores:
 
-O arquivo de microservicos mostra como seria o comportamento de uma distribição de acessos no caso de utilizarmos apenas 2 servidores sem backup conforme link abaixo.
+O arquivo de microservicos mostra como seria o comportamento de uma distribuição de acessos no caso de utilizarmos apenas 2 servidores sem backup conforme link abaixo.
 Utilizando o endereço localhost:8003 onde o próprio servidor realiza a tarefa de encaminhar para os servicos1 e servicos2.
 
 >https://github.com/marcosf-cruz1980/NGINX/blob/main/microservicos
